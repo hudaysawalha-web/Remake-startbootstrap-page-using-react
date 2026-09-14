@@ -1,0 +1,61 @@
+.masthead {
+  background-color: var(--primary-green);
+  padding-bottom: 6rem;
+  color: var(--text-light);
+  text-align: center;
+  padding-top: calc(6rem + 104px);
+}
+.portfolio-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+.masthead-avatar {
+  width: 15rem;
+  margin-bottom: 3rem;
+}
+
+.masthead-heading {
+  font-size: 5rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+.divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.divider-custom-line{
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    border-radius: 1rem;
+    background-color: var(--text-light);
+  
+}
+
+.divider-custom-icon{
+    color: var(--text-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.star-icon{
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+    color: var(--text-light);
+}
+
+.masthead-subheading{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
