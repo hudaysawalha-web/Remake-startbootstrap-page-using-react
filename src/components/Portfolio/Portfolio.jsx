@@ -5,11 +5,13 @@ import Circus from "../../assets/circus.png";
 import Game from "../../assets/game.png";
 import Safe from "../../assets/safe.png";
 import Submarine from "../../assets/submarine.png";
+import DividerCustom from "../Divider/dividerCustome";
 export default function Portfolio() {
   return (
     <>
       <div>
-        <h1> Portfolio </h1>
+        <h2> Portfolio </h2>
+        <DividerCustom theme="dark"/>
       </div>
       <div>
         <div>

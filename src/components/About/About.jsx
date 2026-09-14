@@ -1,14 +1,15 @@
 import React from "react";
 import downloadIcon from "../../assets/download-svgrepo-com.svg";
+import DividerCustom from "../Divider/dividerCustome";
 import { Button } from "react-bootstrap";
-
 export default function About() {
   return (
-    <>
-      <div>
+    
+      <div className="masthead">
         <div>
-          <h1>About</h1>
+          <h2>About</h2>
         </div>
+        <DividerCustom/>
         <div>
           <p>
             Freelancer is a free bootstrap theme created by Start Bootstrap. The
@@ -30,6 +31,6 @@ export default function About() {
        
         </div>
       </div>
-    </>
+  
   );
 }

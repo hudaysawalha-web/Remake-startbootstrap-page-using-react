@@ -11,9 +11,24 @@
 body {
   font-family: var(--font-family);
   color: var(--secondary);
-  background-color: var(--text-light);
 }
 
 a {        
   text-decoration: none;
+}
+
+h1{
+  font-size: 5rem;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+h2{
+  font-size: 3rem;
+  line-height:2.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  
 }

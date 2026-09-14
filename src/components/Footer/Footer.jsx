@@ -10,11 +10,11 @@ export default function Footer() {
   return (
     <div>
       <div>
-        <h2>LOCATION</h2>
-        <h2>2215 John Daniel Drive Clark, MO 65243</h2>
+        <h4>LOCATION</h4>
+        <h4>2215 John Daniel Drive Clark, MO 65243</h4>
       </div>
       <div>
-        <h1>AROUND THE WEB</h1>
+        <h4>AROUND THE WEB</h4>
         <div>
           <a href="https://www.facebook.com/">
             <FaFacebookF />
@@ -31,11 +31,11 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <h2>About Freelancer</h2>
-        <h2>
+        <h4>About Freelancer</h4>
+        <h4>
           Freelance is a free to use, MIT licensed Bootstrap theme created by
          <a href="https://startbootstrap.com/"> Start Bootstrap</a> .
-        </h2>
+        </h4>
       </div>
     </div>
   );

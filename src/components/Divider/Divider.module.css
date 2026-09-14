@@ -1,0 +1,36 @@
+.dividerCustom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dividerLine {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  border-radius: 1rem;
+}
+
+.light .dividerLine {
+  background-color: var(--text-light);
+}
+
+.light .dividerIcon {
+  background-color: var(--text-light);
+}
+.dark .dividerLine {
+background-color: var(--secondary);
+}
+.dark .dividerIcon {
+  background-color: var(--secondary);
+}
+
+.starIcon {
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+
+}
