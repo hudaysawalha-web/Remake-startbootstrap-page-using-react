@@ -19,13 +19,13 @@
 }
 
 .light .dividerIcon {
-  background-color: var(--text-light);
+  color: var(--text-light);
 }
 .dark .dividerLine {
 background-color: var(--secondary);
 }
 .dark .dividerIcon {
-  background-color: var(--secondary);
+  color: var(--secondary);
 }
 
 .starIcon {
