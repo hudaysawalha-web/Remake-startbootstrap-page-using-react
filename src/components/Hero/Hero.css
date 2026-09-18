@@ -25,37 +25,6 @@
   letter-spacing: 0.05rem;
 }
 
-.divider-custom {
-  margin: 1.25rem 0 1.5rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.divider-custom-line{
-    width: 100%;
-    max-width: 7rem;
-    height: 0.25rem;
-    border-radius: 1rem;
-    background-color: var(--text-light);
-  
-}
-
-.divider-custom-icon{
-    color: var(--text-light);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.star-icon{
-    font-size: 2rem;
-    width: 2rem;
-    height: 2rem;
-    color: var(--text-light);
-}
-
 .masthead-subheading{
     font-size: 1.5rem;
     font-weight: 500;

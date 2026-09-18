@@ -1,0 +1,19 @@
+.portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.portfolio-item .img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-fluid {
+  border-radius: 0.5rem;
+  
+}

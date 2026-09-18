@@ -12,8 +12,8 @@ export default function About() {
         <h2>About</h2>
 
         <DividerCustom />
-        <div className="row">
-          <div className="col-lg-4 ms-auto">
+        <div className="row justify-content-center ">
+          <div className="col-12 col-lg-4 ms-auto">
             <p className="lead">
               Freelancer is a free bootstrap theme created by Start Bootstrap.
               The download includes the complete source files including HTML,
@@ -21,7 +21,7 @@ export default function About() {
               customization.
             </p>
           </div>
-          <div className="col-lg-4 me-auto">
+          <div className="col-12 col-lg-4 me-auto">
             <p className="lead">
               You can create your own custom avatar for the masthead, change the
               icon in the dividers, and add your email address to the contact
